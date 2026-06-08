@@ -4,7 +4,7 @@ local IsClient = RunService:IsClient()
 
 local VersionHandler = {}
 VersionHandler._version = "0.0.0"
-VersionHandler._reporef = "NotKisoMomo/Knit"
+VersionHandler._reporef = "NotKisoMomo/Mitt"
 VersionHandler._autoUpdate = true
 VersionHandler._silent = false
 

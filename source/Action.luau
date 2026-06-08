@@ -158,7 +158,7 @@ end
 function Action:log()
 	local function printer(signal, label)
 		signal:connect(function(event)
-			print(string.format("[Knit] %s.%s  binding=%s  held=%.2fs", self._name, label, tostring(event.binding), self:heldDuration()))
+			print(string.format("[Mitt] %s.%s  binding=%s  held=%.2fs", self._name, label, tostring(event.binding), self:heldDuration()))
 		end)
 	end
 	printer(self.pressed, "pressed")
